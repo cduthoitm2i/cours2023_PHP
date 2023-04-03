@@ -10,12 +10,10 @@ AuthentificationExo1.php
     <body>
         <h1>AuthentificationExo1.php</h1>
         <?php
-        // La BDD
-        $pseudoOK = "Chris";
-        $mdpOK = "1234";
-        // Les saisies dans le formulaire
-        $pseudo = "Chris";
-        $mdp = "1234";
+        $pseudoOK = "p";
+        $mdpOK = "b";
+        $pseudo = "p";
+        $mdp = "bbb";
         if ($pseudo === $pseudoOK && $mdp === $mdpOK) {
             echo "Authentification OK";
         } else {
