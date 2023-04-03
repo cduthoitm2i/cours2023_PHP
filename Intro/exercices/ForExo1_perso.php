@@ -48,7 +48,7 @@
         foreach($tab_mois as $mois){
         $options .= '<option value="'.$mois.'">'.$mois.'</option>';
         }
-        $options = str_replace('value="'.rtrim(strtoupper(strftime('%b')), '.').'"', 'value="'.rtrim(strtoupper(strftime('%b')), '.').'" selected="selected"', $options);
+        $options = str_replace('value="'.rtrim(strtoupper(date('%b')), '.').'"', 'value="'.rtrim(strtoupper(date('%b')), '.').'" selected="selected"', $options);
     
 
         
