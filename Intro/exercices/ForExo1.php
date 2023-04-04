@@ -40,7 +40,6 @@ ForExo1.php
             echo "\n";
             ?>
         </select>
-        <br><br>
-        <a href="<?php echo $_SERVER['HTTP_REFERER']; ?>">Retour</a>
+        
     </body>
 </html>

@@ -93,7 +93,13 @@ index.php
                     <a href="./exercices/AuthentificationExo1.php">Authentification - Exo - Version 1</a>
                 </li>
                 <li>
-                    <a href="./exercices/ForExo1.php">For - Exo - Version 1</a>
+                    <a href="./exercices/ForExo1.php"><strong>For - Exo - Version 1</strong></a>
+                </li>
+                <li>
+                    <a href="./exercices/ForExo1PLus.php">For - Exo - Version 1 Plus corrigé</a>
+                </li>
+                <li>
+                    <a href="./exercices/ForExo1_perso.php">For - Exo (perso) - Version 1</a>
                 </li>
                 <li>
                     <a href="./exercices/TableauExo1.php">Tableau 1 - Exo - Version 1</a>
@@ -107,7 +113,7 @@ index.php
                     <a href="./exercices/ForExo1Tintin.php">Mon Exo Tintin</a>
                 </li>
                 <li>
-                    <a href="./exercices/IfExo1_corrige.php">Exo Tintin corrigé prof</a>
+                    <a href="./exercices/IfExo1_corrige.php"><strong>Exo Tintin corrigé prof</strong></a>
                 </li>
             </ul>
         </div>

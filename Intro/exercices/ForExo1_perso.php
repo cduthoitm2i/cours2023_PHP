@@ -8,7 +8,7 @@
 </head>
 <body>
     <h3>Génération d'un menu select jour/mois/année en PHP</h3>
-    <form method="get">
+    <form action="" method="get">
     <?php
         $i=0;
 
@@ -18,26 +18,26 @@
 
         echo "<select name='jour'>";
             for($i=1;$i<=31;$i=$i+1){
-                echo "<option value=\"". $i."\">". $i."</option>";
+                echo "<option value='". $i."'>". $i."</option>\n";
             }
         echo "</select>&nbsp;";
 
         // On affiche le sélecteur pour les mois de 1 à 12
         echo "<select name='mois'>";
             for($i=1;$i<=12;$i=$i+1){
-                echo "<option value=\"". $i."\">". $i."</option>";
+                echo "<option value=\"". $i."\">". $i."</option>\n";
             }
         echo "</select>&nbsp;";
 
         // On affiche le sélecteur pour les années de 1900 à 2030
         echo "<select name='annee'>";
         for($i=1900;$i<=2030;$i=$i+1){
-            echo "<option value=\"". $i."\">". $i."</option>";
+            echo "<option value=\"". $i."\">". $i."</option>\n";
         }
     echo "</select>";
     ?>
      <input type="submit" value="Envoyer"></input></form>
-    <br><br>
+    <br><br><br><br>
     <form method="get">
     <?php
         $i=0;
@@ -57,21 +57,21 @@
 
         echo "<select name='jour'>";
             for($i=1;$i<=31;$i=$i+1){
-                echo "<option value=\"". $i."\">". $i."</option>";
+                echo "<option value=\"". $i."\">". $i."</option>\n";
             }
         echo "</select>&nbsp;";
 
         // On affiche le sélecteur pour les mois de 1 à 12
         echo "<select name='mois'>";
             
-                echo "<option><?php echo $options; ?></option>";
+                echo "<option><?php echo $options; ?></option>\n";
 
         echo "</select>&nbsp;";
 
         // On affiche le sélecteur pour les années de 1900 à 2030
         echo "<select name='annee'>";
         for($i=1900;$i<=2030;$i=$i+1){
-            echo "<option value=\"". $i."\">". $i."</option>";
+            echo "<option value=\"". $i."\">". $i."</option>\n";
         }
     echo "</select>";
     ?>
