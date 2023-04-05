@@ -9,7 +9,7 @@ ForExo1Plus.php
     </head>
     <body>
         <?php
-        /* Documentation phpdoc importante pour expliquer la fonction*/
+
         /**
          * 
          * @param string $name
@@ -17,9 +17,6 @@ ForExo1Plus.php
          * @param int $end
          * @return string
          */
-        /** Début de la fonction 
-        * On place les variables par type $name, $begin, $end et $list */
-        /* une function réutilisable pour les jours, mois et années */
         function createList(string $name, int $begin, int $end): string {
             $list = "<select name='$name'>";
             for ($i = $begin; $i <= $end; $i++) {
@@ -34,13 +31,10 @@ ForExo1Plus.php
         <form action="" method="GET">
 
             <?php
-            /* Deux syntaxes différentes*/
             $jours = createList("jours", 1, 31);
             echo $jours;
-            echo "&nbsp;";
-            /* ou comme ceci*/            
+            
             echo createList("mois", 1, 12);
-            echo "&nbsp;";
             echo createList("annees", 1900, 2023);
             ?>
 

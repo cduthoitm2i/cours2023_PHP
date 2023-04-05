@@ -22,6 +22,7 @@
             text-align: center;
             border:1px solid black; 
             background-color:silver;
+            font-weight: bold;
 
         }
         tbody{
@@ -38,7 +39,7 @@
     <!--Mon tableau HTML crée en php avec un thead, un body et un tfoot YES !!-->
 </head>
 <body>
-    <p>Mon tableau HTML crée en php avec un thead, un body et un tfoot</p>
+    <h3>Mon tableau HTML crée en php avec un thead, un body et un tfoot</h3>
 
     <?php
         echo "<table border=1><thead>";
