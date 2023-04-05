@@ -198,6 +198,7 @@
     {
         /* J'utilise une nouvelle variable $row comme c'est une fonction pour le tableau, même si $list aurait fonctionné également pour dans la fonction précédente */
         $row = "<table border='1'><tbody>";
+
         for ($i = 0; $i < count($t); $i++) {
             $row .= "<tr>";
             for ($j = 0; $j < 1; $j++) {
