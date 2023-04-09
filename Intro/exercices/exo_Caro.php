@@ -19,7 +19,7 @@
         if (empty($pseudo) || empty($classe) || empty($metier)) {
             $message = "Toutes les saisies sont obligatoires&thinsp;!";
         } else {
-            $fichier = "../ressources/avatar.txt";
+            $fichier = "../exercices/avatar.txt";
             $canal = fopen($fichier, "a+");
             fwrite($canal, "\n$pseudo;$classe;$metier");
             fclose($canal);
