@@ -30,7 +30,7 @@ $newsLetter = filter_input(INPUT_POST, "newsLetter");
 //$civilite = "Monsieur";
 //$dateNaissance = "1955-10-03";
 //$idVille = "75011";
-// Si $civilite n'est pas renseigné alors erreur, sinon on passe au suivant
+// Si $civilite n'est pas renseigné alors erreur (différent de vide (null))
 if ($civilite == null) {
     $erreur++;
     $message .= "<br>Civilité obligatoire";
