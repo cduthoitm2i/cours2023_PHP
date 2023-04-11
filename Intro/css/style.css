@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding:0;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    height: 5%;
+    color: white;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+}
+nav ul li a{
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: normal;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section, header, footer{
+    padding: 0.5%;
+}
+
+h1{
+    padding: 1%;
+}
+
+p{
+/*    padding: 0.1%;*/
+}
+
+input[type="submit"], input[type="button"]{
+    padding: 5px;
+}
+
+#center{
+    border-right: 0px solid black; width: 100%; height: 70%; overflow: auto; padding-left: 1%; float: left; 
+    background-color: white;
+}
+
+
+legend{padding: 1%;}
+fieldset{padding: 1%; margin: 1%;}
+/*form{padding: 0.2%;}
+button{padding: 0.5%;}*/
+
+.texteRouge{color: red;}
+
+.etiquette{display: inline-block; width: 200px; padding: 1%;}
+
+.message{color: dimgrey; text-align: center;}
+.erreur{color: red; text-align: center;}
