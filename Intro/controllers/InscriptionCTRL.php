@@ -4,7 +4,9 @@
  * AuthentificationCTRL.php
  */
 // On appel le fichier contenant les fonctions de contrôles
-require_once '../libs/ControlesER.php';
+
+include '../controllers/ControlesER.php';
+
 
 $message = "";
 $erreur = 0;
